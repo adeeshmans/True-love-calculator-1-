@@ -1,4 +1,3 @@
-
 print("Welcome to the Love Calculator!")
 name1 = input("What is your name? \n")
 name2 = input("What is their name? \n")
@@ -7,6 +6,7 @@ combined_name = name1 + name2
 
 # converting to lower case input value
 lower_case = combined_name.lower()
+
 #counting each occurance of true love with the input
 t = lower_case.count("t")
 r = lower_case.count("r")
